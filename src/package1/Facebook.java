@@ -26,8 +26,6 @@ public class Facebook {
 		driver.findElement(By.id("u_0_8")).sendKeys("myemail@gmail.com");
 		driver.findElement(By.id("u_0_a")).sendKeys("passwordofuser");
 		
-		Thread.sleep(3000);
-
 	}
 	@BeforeClass
 	public void beforeClass() {
